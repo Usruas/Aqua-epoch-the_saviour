@@ -58,6 +58,8 @@ Run verification after training:
 PYTHONPATH=src python -m unittest discover -s tests -v
 ```
 
+Deployed Application: https://aqua-epoch.onrender.com/
+
 ## API example
 
 ```bash
@@ -110,3 +112,20 @@ Response fields include `safety_label`, `safe_probability`, `predicted_ph`, vali
 | `POST` | `/api/predict` | safety classification and pH regression |
 
 The server intentionally uses Python's standard-library HTTP server so the deployed inference service has a small attack surface and does not require a separate web framework. Model training requires the packages listed in `requirements.txt`.
+
+
+
+## Contributors
+
+This project was developed collaboratively.
+
+### My Contributions
+- Worked on water potability prediction.
+- Contributed to machine learning model development and evaluation.
+- Worked on pH prediction and water quality analysis.
+
+### Original Project
+Based on the collaborative work originally maintained by [Shubham Kumar](https://github.com/shubham-kumar-125).
+
+
+
